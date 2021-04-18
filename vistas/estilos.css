@@ -1,0 +1,206 @@
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 0px ;
+	text-align: center;
+	font-weight: 300;
+  background-color: mediumspringgreen;
+background-size: 200px;
+}
+
+
+
+body{
+
+    /* Like the header, the footer will have a static height - it shouldn't grow or shrink.  */
+    /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+/*flex: 0 0 auto;*/
+
+background-repeat: no-repeat;
+background-position-y: 400px ;
+background-size: 1380px;
+background-color: mediumspringgreen;
+}
+/*Inicia CSS del aside*/
+aside{
+background-color: #C086F1;
+float: left;
+margin: 0px 0px 0px 0px;
+padding: 0px;
+vertical-align: top;
+width: 400px;
+height: 900px;
+
+}
+
+
+
+.form-nav input[type="button"] {
+  border: 0px;
+
+  background: none;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 10px;
+text-align: center;
+border: 2px solid #707070;
+width: 200px;
+outline: none;
+color: black;
+border-radius: 24px;
+transition: 0.25s;
+}
+
+.form-nav input[type="button"]
+{
+  border: 0px;
+  background-color:#fff;
+  cursor: pointer;
+  border: 2px solid #707070;
+}
+/*Termina CSS del aside*/
+
+/*Inicia CSS de la tabla*/
+.tabla {
+  table-layout: fixed;
+  width: 40%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  margin: auto;
+  padding: auto;
+  background-position-y: center;
+}
+
+th, td {
+  padding: 20px;
+  width: min-content;
+  border: 3px solid purple;
+}
+
+/*Termina CSS de la tabla*/
+
+/*Inicia CSS de manguera botones*/
+.botones-manguera{
+  float: right;
+  width: 300px;
+padding: 40px;
+margin-right: 250px;
+margin-top: 80px;
+background: white;
+text-align: center;
+border-radius: 24px;
+border-color: teal;
+border-width: 10px;
+transition: 1s;
+  }
+
+  .botones-manguera button[type="button"]
+   {
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+  text-align: center;
+  border: 2px solid #3742FA;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  }
+
+  .botones-manguera button[type="button"]{
+    border: 0px;
+    background-color:green;
+    cursor: pointer;
+    border: 2px solid #3742FA;
+  }
+
+  .botones-manguera button[type="button"]:hover{
+  background: none;
+  }
+
+/*Termina CSS de manguera botones*/
+/*Inicia CSS de tabla de plantas */
+.plantas {
+
+  float: center;
+  table-layout: fixed;
+  width: 40%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  margin: auto;
+  padding: auto;
+  background-position-y: center;
+}
+
+th, td {
+  padding: 20px;
+  width: min-content;
+  border: 3px solid purple;
+  float: center;
+}
+
+
+.add-btn input[type="button"]
+{
+  background-position-x: 350px;
+  background-position-y: 200px;
+  border: 0px;
+  background-color:#fff;
+  cursor: pointer;
+  border: 2px solid #707070;
+}
+/*Termina CSS de tabla de plantas */
+
+/*Inicia CSS de formulario de agregar plantas */
+.box-add{
+float: right;
+margin-right: 200px;
+margin-top: 100px;
+  width: 300px;
+  padding: 40px;
+  background: white;
+  text-align: center;
+  border-radius: 24px;
+  border-color: teal;
+  border-width: 10px;
+  transition: 1s;
+  }
+
+
+  .box-add input[type="text"],
+  .box-add input[type="text"],
+  .box-add button[type="submit"] {
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+  text-align: center;
+  border: 2px solid #3742FA;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  }
+
+  .box-add input[type="text"]:focus,
+  .box-add input[type="text"]:focus{
+    width: 280px;
+    border-color: green;
+  }
+
+  .box-add button[type="submit"]{
+    border: 0px;
+    background-color:green;
+    cursor: pointer;
+    border: 2px solid #3742FA;
+  }
+  .box-add button[type="submit"]:hover{
+  background: none;
+  }
+
+/*Termina CSS de formulario de agregar plantas */

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Control de Plantas</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+  <h1>Agregar una Planta</h1>
+
+  <script>
+    function agregar() {
+    alert("La planta se ha registrado");
+  }
+
+
+  </script>
+
+   <!--Inicio de la etiqueta del menu-->
+   <aside class="form-nav">
+    <nav >
+      <ul>
+
+        <input type="button" value="Inicio" onClick="
+        window.location.href='C:/Users/erick/jarduino/src/app/vistas/index.html' ">
+
+        <input type="button" value="Control de Manguera" onClick="
+        window.location.href='C:/Users/erick/jarduino/src/app/vistas/manguera.html' ">
+
+        <input type="button" value="Control de plantas" onClick="
+        window.location.href='C:/Users/erick/jarduino/src/app/vistas/plantas.html' ">
+      </ul>
+    </nav>
+
+  </aside>
+
+ <!--Cierre de la etiqueta del menu-->
+
+ <form action="../vistas/plantas.html" class="box-add">
+  <input type="text" placeholder="Tipo">
+  <input type="text" placeholder="Humedad">
+
+  <button class="add" type="submit" onclick= agregar() , "/vistas/plantas.html">
+    Agregar Planta
+  </button>
+
+</form>
+
+
+</body>
+</html>

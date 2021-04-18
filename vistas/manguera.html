@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Control de Manguera</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<h1>Control de Manguera</h1>
+<body>
+
+
+
+
+    <!--Inicio de la etiqueta del menu-->
+
+  <aside class="form-nav">
+    <nav >
+      <ul>
+
+        <input type="button" value="Inicio" onClick="
+        window.location.href='C:/Users/erick/jarduino/src/app/vistas/index.html' ">
+
+        <input type="button" value="Control de Manguera" onClick="
+        window.location.href='C:/Users/erick/jarduino/src/app/vistas/manguera.html' ">
+
+        <input type="button" value="Control de plantas" onClick="
+        window.location.href='C:/Users/erick/jarduino/src/app/vistas/plantas.html' ">
+      </ul>
+    </nav>
+
+  </aside>
+
+ <!--Cierre de la etiqueta del menu-->
+
+<!--Inicio de la etiqueta de los botones-->
+
+<script>
+  function regar() {
+  alert("La planta comenzó a regarse.");
+}
+
+  function detener() {
+  alert("Se detuvo el riego.");
+}
+</script>
+
+<form action="" class="botones-manguera">
+  <button onclick="regar()"  type="button"  value="regar" id="boton1">
+    INICIAR RIEGO
+  </button>
+
+  <button onclick="detener()" type="button" value="no regar" id="boton2">
+    DETENER RIEGO
+  </button>
+
+</form>
+
+
+
+</body>
+</html>
